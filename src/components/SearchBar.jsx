@@ -1,33 +1,31 @@
-import React, {useState} from 'react';
-import {form, input, button} from './SearchBar.module.css'
+import { useState } from "react";
+import { form, input, button } from "./SearchBar.module.css";
 
-function SearchBar(props) {
-  const [cityName, setCityName] = useState('')
+export const SearchBar = (props) => {
+  const [cityName, setCityName] = useState("");
 
-  return ( 
+  return (
     <form className={form}>
-      <input 
-        className={input} 
+      <input
+        className={input}
         type="text"
         placeholder="Search city"
         value={cityName}
         onChange={(event) => {
-          setCityName(event.target.value)
+          setCityName(event.target.value);
         }}
       />
 
-      <button 
-        className={button} 
+      <button
+        className={button}
         onClick={(event) => {
           event.preventDefault();
-          cityName !== '' && props.searchCity(cityName);
-          setCityName('');
+          cityName !== "" && props.searchCity(cityName);
+          setCityName("");
         }}
       >
         Search
       </button>
     </form>
-  )
+  );
 };
-
-export default SearchBar;
