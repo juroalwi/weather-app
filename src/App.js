@@ -4,7 +4,6 @@ import { Cards } from "./components/Cards.jsx";
 import { Nav } from "./components/Nav.jsx";
 import { About } from "./components/About";
 import { City } from "./components/City";
-import "./index.css";
 
 export const App = () => {
   const [cities, setCities] = useState([]);
