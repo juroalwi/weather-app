@@ -1,11 +1,11 @@
 .citiesStyle {
-  margin: 30px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
 }
 
 .cityStyle {
-  margin: 30px;
-  list-style-type: none;
+    margin: 30px;
+    list-style-type: none;
 }

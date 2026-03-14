@@ -1,42 +1,41 @@
 .form {
-  margin-left: auto;
-  height: 75px;
-  width: 380px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background-color: #152028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 75px;
+    margin-left: auto;
+    border-radius: 10px;
+    background-color: #152028;
 }
 
 .button {
-  margin: 5px;
-  height: 40px;
-  cursor: pointer;
-  border: 2px solid #202945;
-  border-radius: 10px;
-  background-color: #202945;
-  color: white;
-  font-size: 12pt;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid #202945;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #202945;
+    color: white;
+    font-size: 12pt;
 }
 
 .button:hover {
-  filter: brightness(140%);
+    filter: brightness(140%);
 }
 
-
 .input {
-  margin: 5px;
-  padding: 10px;
-  height: 15px;
-  width: 220px;
-  border: 2px solid #202945;
-  border-radius: 20px;
-  background-color: #202945;
-  color: white;
-  font-size: 12pt;
+    width: 220px;
+    height: 15px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #202945;
+    border-radius: 20px;
+    background-color: #202945;
+    color: white;
+    font-size: 12pt;
 }
 
 .input:hover {
-  background-color: #152028;
+    background-color: #152028;
 }
