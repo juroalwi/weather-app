@@ -6,7 +6,7 @@ export const Nav = (props) => {
   return (
     <div className={nav}>
       <Link exact to="/">
-        <img src="thermometer.svg" className={icon} />
+        <img src="logo.svg" className={icon} />
       </Link>
 
       <NavLink exact to="/" className={weather}>
