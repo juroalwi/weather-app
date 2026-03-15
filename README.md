@@ -2,25 +2,28 @@
 
 ## About the project
 
-Application that allows the user to search weather information from different places around the world.
-The data is fetched from an external API.
+Weather forecasting application that enables users to check real-time weather information from different places around the world.
+The data is fetched from an external API via HTTP.
 
 #### Cities cards
-<img src='./media/cities-cards.jpg'/>
+
+<img src='./images/cities-cards.jpg'/>
 
 #### City detail
-<img src='./media/city-detail.jpg'/>
+
+<img src='./images/city-detail.jpg'/>
 
 ## Technologies used
 
 - JavaScript
-- React
+- HTML
 - CSS
+- React
 
-## Getting started
+## Run locally
 
 - Clone repository in your computer.
 - Install NodeJS (version >= 12.18.3) and npm (version >= 6.14.16).
-- Execute `npm i` on root folder.
-- Execute `npm start` on root folder.
-- Navigate to `http://localhost:3000` in your browser. 
+- Execute `npm install` on root folder.
+- Execute `npm run start` on root folder.
+- Navigate to `http://localhost:3000` in your browser.
